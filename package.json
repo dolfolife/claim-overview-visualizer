@@ -1,0 +1,27 @@
+{
+  "name": "claim-overview-visualizer",
+  "version": "1.0.0",
+  "description": "Claim overview visualizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "start": "webpack-dev-server"
+  },
+  "author": "Rodolfo Sanchez <rodolfo2488@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-env": "1.4.0",
+    "babel-preset-es2015": "6.24.1",
+    "copy-webpack-plugin": "4.0.1",
+    "html-webpack-plugin": "2.28.0",
+    "webpack": "2.5.1",
+    "webpack-dev-server": "2.4.5"
+  },
+  "dependencies": {
+    "d3": "4.9.0"
+  }
+}
